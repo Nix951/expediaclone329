@@ -62,7 +62,8 @@ export const Login = () => {
   function handleVerifyNumber() {
     document.querySelector("#nextText").innerText = "Please wait...";
     onCapture();
-    const phoneNumber = `+91${number}`;
+    //CHANGED: To us nums +1 not +91
+    const phoneNumber = `+1${number}`;
     const appVerifier = window.recaptchaVerifier;
     if (number.length === 10) {
       if (exist) {
