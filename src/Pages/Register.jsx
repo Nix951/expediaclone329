@@ -80,8 +80,7 @@ export const Register = () => {
   function handleVerifyNumber() {
     document.querySelector("#nextButton").innerText = "Please wait...";
     onCapture();
-    //CHANGED: To us +1 not +91
-    const phoneNumber = `+1${number}`;
+    const phoneNumber = `+91${number}`;
     const appVerifier = window.recaptchaVerifier;
     if (number.length === 10) {
       if (exist) {

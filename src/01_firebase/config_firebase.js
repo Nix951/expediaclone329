@@ -3,18 +3,15 @@ import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-//EDIT: changed confi
-//Author: Annika S.
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDZTO0L0hvi91bUS4dDuFoaC22NZsV7mcc",
-  authDomain: "cpre329expedia.firebaseapp.com",
-  projectId: "cpre329expedia",
-  storageBucket: "cpre329expedia.firebasestorage.app",
-  messagingSenderId: "202662366267",
-  appId: "1:202662366267:web:bc984281aaca551ac3e01e"
-  //REMOVED: not given in my config: measurementId: "G-5KYMV9KZ2D"
+  apiKey: "AIzaSyBlKHCdVfQvMRKQf2B5UqaLfDkwm6T1apo",
+  authDomain: "challo-ghume-fa22c.firebaseapp.com",
+  projectId: "challo-ghume-fa22c",
+  storageBucket: "challo-ghume-fa22c.appspot.com",
+  messagingSenderId: "411994731743",
+  appId: "1:411994731743:web:a02cec85eb6aa66ddbe56a",
+  measurementId: "G-5KYMV9KZ2D"
 };
 
 // Initialize Firebase
